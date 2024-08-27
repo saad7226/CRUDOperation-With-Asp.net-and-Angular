@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+}
+
+.employee_details {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+ 
+  .employee_details thead {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+
+ 
+  .employee_details tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+   
+    .employee_details tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+
+    .employee_details tbody tr:nth-child(even) {
+      background-color: #ffffff;
+    }
+
+    
+    .employee_details tbody tr:hover {
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+
+  
+  .employee_details th, .employee_details td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+
+button[type="button"] {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+  button[type="button"]:hover {
+    background-color: #303f9f;
+  }

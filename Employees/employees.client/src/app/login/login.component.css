@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+}
+
+.tableclass {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: auto;
+}
+
+  .tableclass td {
+    padding: 0px 0px; 
+  }
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  width: auto;
+}
+
+td {
+  padding: 0px 0px;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 135px;
+  display: inline-block;
+}

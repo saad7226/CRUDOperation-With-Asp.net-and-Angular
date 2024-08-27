@@ -1,0 +1,2 @@
+E:\SAAD\C# Projects\Employees\employees.client\obj\Debug\employees.client.esproj.CoreCompileInputs.cache
+E:\SAAD\C sharp Projects\Employees\employees.client\obj\Debug\employees.client.esproj.CoreCompileInputs.cache

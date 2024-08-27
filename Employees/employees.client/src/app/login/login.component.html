@@ -1,0 +1,30 @@
+<h2>Login Page</h2>
+<div class="container">
+  <table class="tableclass" border="1">
+    <tr>
+      <td>Employee Id:</td>
+      <td>
+        <input type="number" #employeeId />
+      </td>
+    </tr>
+
+    <tr>
+      <td>Employee Name:</td>
+      <td>
+        <input matInput type="text" #employeeName />
+      </td>
+    </tr>
+
+    <tr>
+      <button mat-raised-button (click)="onClick(+employeeId.value,employeeName.value)">Login </button>
+    </tr>
+
+    <tr>
+      <button mat-raised-button (click)="onSignupClick()">Sign up </button>
+    </tr>
+    <tr>
+      <button mat-raised-button (click)="onLogoutButtonClick()">Log out </button>
+    </tr>
+  </table>
+
+</div>

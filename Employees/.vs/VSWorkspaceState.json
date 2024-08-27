@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\employees.client",
+    "\\employees.client\\src",
+    "\\employees.client\\src\\app",
+    "\\employees.client\\src\\app\\add-employee",
+    "\\Employees.Server",
+    "\\Employees.Server\\Controllers",
+    "\\Employees.Server\\Models"
+  ],
+  "SelectedNode": "\\Employees.sln",
+  "PreviewInSolutionExplorer": false
+}

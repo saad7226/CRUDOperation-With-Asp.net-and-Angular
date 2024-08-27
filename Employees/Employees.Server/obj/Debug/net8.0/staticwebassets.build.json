@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "KIBjlEanbj/TDNLWMEuZ2SPU6KPKykSmBhumgIPyR4c=",
+  "Source": "Employees.Server",
+  "BasePath": "_content/Employees.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\SAAD\\C sharp Projects\\Employees\\employees.client\\employees.client.esproj",
+      "Version": 2,
+      "Source": "employees.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

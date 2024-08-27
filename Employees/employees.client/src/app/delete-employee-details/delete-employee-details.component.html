@@ -1,0 +1,38 @@
+<form class="form" (ngSubmit)="onSubmitForm()" [formGroup]="deleteEmployeeForm">
+
+  <div class="row">
+    <mat-form-field appearance="fill">
+      <mat-label>Employee Name</mat-label>
+      <input matInput id="employeeName" type="text" formControlName="employeeName" />
+      <div *ngIf="deleteEmployeeForm.get('employeeName')?.touched && deleteEmployeeForm.get('employeeName')?.errors?.['required']">
+        Enter Your Name
+      </div>
+    </mat-form-field>
+  </div>
+  <br />
+
+  <div class="row">
+    <mat-form-field appearance="fill">
+      <mat-label>Employee Age</mat-label>
+      <input matInput id="employeeAge" type="text" formControlName="employeeAge" />
+      <div *ngIf="deleteEmployeeForm.get('employeeAge')?.touched && deleteEmployeeForm.get('employeeAge')?.errors?.['required']">
+        Please Your Age
+      </div>
+    </mat-form-field>
+  </div>
+  <br />
+
+  <div class="row">
+    <mat-form-field appearance="fill">
+      <mat-label>Employee Gender</mat-label>
+      <input matInput id="employeeGender" type="text" formControlName="employeeGender" />
+      <div *ngIf="deleteEmployeeForm.get('employeeGender')?.touched && deleteEmployeeForm.get('employeeGender')?.errors?.['required']">
+        Please Your Gender
+      </div>
+    </mat-form-field>
+  </div>
+  <br />
+
+  <button mat-raised-button color="primary" type="submit">Submit</button>
+</form>
+
